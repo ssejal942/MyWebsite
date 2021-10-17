@@ -1,0 +1,132 @@
+
+h1 {
+    position: relative;
+    top: 55px; 
+    color: #66BFBF;
+     line-height: 2;
+}
+#job{
+     position: relative;
+     top: 65px;
+     font-weight: normal;
+     color: #66BFBF;
+     font-size: large;
+}
+body{
+     margin:0px;
+     text-align: center;
+     font-family: cursive;
+     background-color:#E4F9F5 ;
+}
+.top-container {
+   
+    padding-top: 7%;
+    padding-bottom: 1%;
+    padding-left: 30%;
+    padding-right: 30%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    top:25px;
+}
+#top-cloud {
+     position:absolute;
+     right: 410px;
+     display: block;
+}
+#bottom-cloud {
+     position: relative;
+     right: 360px;
+     top:85px;
+}
+
+#computer {
+     height: 250px;
+     width:300px;
+     margin-top: 10%;
+ 
+     top:400px;
+     left:600px;
+}
+#my-img {
+     height: 180px;
+     width:180px;
+     border-radius: 50%;
+     margin-bottom: 2%;
+}
+h2 {
+     font-family: sans-serif;
+}
+.second {
+     padding-top: 10px;
+}
+
+#one {
+    
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 5px;
+    border-color:lawngreen;
+    margin-top: 5%;
+}
+hr {
+     border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 5px;
+    border-color:lawngreen;
+    margin-top: 5%;
+}
+#skills ,#projects{
+     height: 180px;
+     width:180px;
+     margin-top: 2%;
+     margin-bottom: 2%;
+  
+}
+
+ .box {
+     background-color: white;
+     border-radius: 12px;
+     box-shadow: 10px 10px 10px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+     color: #141c3a;
+     display: block;
+     padding: 1.25rem;
+     height: 220px;
+     width: 100px;
+     margin-left: 3%;
+     margin-right: 3%;
+     padding-bottom: 2%;
+     margin-top: 2%;
+ }
+.fourth {
+  
+     background-color: lightblue;
+     padding-top: 3%;
+     padding-bottom: 2%;
+}
+a {
+
+     margin: 10px 10px 20px 20px;
+}
+
+@media (max-width:500px)
+{
+   #top-cloud {
+        position: absolute;
+        right:5%;
+   }
+   #bottom-cloud {
+     position: absolute;
+     left:5%;
+     top:130%;
+   }
+   h1 {
+        text-align: center;
+        font-size: 1.5rem;
+   }
+   #computer {
+        margin-top: 40%;
+   }
+}
