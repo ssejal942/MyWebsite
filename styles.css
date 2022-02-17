@@ -127,6 +127,13 @@ a {
         font-size: 1.5rem;
    }
    #computer {
-        margin-top: 45%;
+        margin-top: 40%;
    }
+}
+
+@media (max-width:340px)
+{
+   #computer {
+        margin-top: 50%;
+   } 
 }
