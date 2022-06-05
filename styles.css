@@ -131,7 +131,7 @@ a {
    }
 }
 
-@media (max-width:340px)
+@media (max-width:400px)
 {
    #computer {
         margin-top: 50%;
